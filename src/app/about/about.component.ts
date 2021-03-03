@@ -9,7 +9,7 @@ import { DOCUMENT } from "@angular/common";
 export class AboutComponent implements OnInit {
   constructor(@Inject(DOCUMENT) private document: Document) {}
 
-  goToUrl(): void {
+  goToGit(): void {
     this.document.location.href = "https://github.com/santanaluc";
   }
 
